@@ -31,13 +31,18 @@ inquirer
     },
     {
         type: "input",
+        name: "contributing",
+        message: "Who and how can someone contribute to this project?:",
+    },
+    {
+        type: "input",
         name: "test",
         message: "Enter test instructions for your user:",
     },
     {
         type: "input",
         name: "github",
-        message: "Please provide your GitHub link:",
+        message: "Please provide your GitHub username:",
     },
     {
         type: "input",
@@ -69,11 +74,17 @@ ${data.install}
 ## Usage
 ${data.usage}
 
+## Contributing
+${data.contributing}
+
 ## Test Instructions
 ${data.test}
 
+## License
+This application is covered by the following license: ${data.license}
+
 ## Questions
-Feel free to contact me below:
+Feel free to contact me below with any questions or suggestions:
 
 - [Github](https://github.com/${data.github})
 
