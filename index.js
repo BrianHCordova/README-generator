@@ -64,7 +64,7 @@ ${data.description}
 * [Description](#description)
 * [Installation](#install)
 * [Usage](#usage)
-* [License](*license)
+* [License](#license)
 * [Test](#test)
 * [Questions](#questions)
 
